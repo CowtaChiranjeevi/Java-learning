@@ -1,6 +1,6 @@
 package l10_Abstraction;
 
-// abstract class that requires its methods to be implemented in subclass
+// abstract class that requires its methods to be implemented in subclass, unless another acess modifier is mentioned
 abstract class Vehicle{
     int maxSpeed = 150;
     abstract void start();
